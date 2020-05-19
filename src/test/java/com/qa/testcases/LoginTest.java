@@ -21,7 +21,7 @@ public class LoginTest {
 		HomePage home = new HomePage();
 		LoginPage lp = home.gotoLogin();
 		lp.doLogin(data.get("uname"), data.get("pass"));
-	Assert.fail("Login test failed");
+	//Assert.fail("Login test failed");
 	
 		
 	}																																																																							
